@@ -1,39 +1,17 @@
-import { Contact } from "../shared/contact"
-import { Gallery } from "../shared/gallery/gallery"
-import { Homepage } from "../shared/homepage"
-import { Servicios } from "../shared/services/services"
-import { Navigate } from "react-router-dom"
-import Layout from "@/layouts/homeLayout"
+import { Routes, Route } from "react-router-dom"
+import Home from "../shared/homePage"
+import Pricing from "../shared/pricing"
+import Reviews from "../shared/reviews"
 
-export const routes = [
-  {
-    path: "/inicio",
-    component: <Layout />,
-    routes: [
-      {
-        path: "",
-        component: <Homepage />,
-      },
-      {
-        path: "contacto",
-        component: <Contact />,
-      },
-      {
-        path: "galeria",
-        component: <Gallery />,
-      },
-      {
-        path: "servicios",
-        component: <Servicios />,
-      },
-    ],
-  },
-  {
-    path: "/",
-    component: <Navigate to="/inicio" />,
-  },
-  {
-    path: "*",
-    component: <Navigate to="/404" />,
-  },
-]
+function RoutesPage() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/login" element={<Pricing />} />
+      <Route path="/register" element={<Reviews />} />
+    </Routes>
+  )
+}
+
+export default RoutesPage

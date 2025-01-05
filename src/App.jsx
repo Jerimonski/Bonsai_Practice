@@ -1,8 +1,6 @@
-import Router from "./router/index"
-import { routes } from "./routes/routesConfig"
-
+import Router from "../src/router/index"
 function App() {
-  return <Router routes={routes} />
+  return <Router />
 }
 
 export default App
