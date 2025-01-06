@@ -3,7 +3,7 @@ import DropdownList from "./../../ui/components/dropdownList"
 
 function BonsaiColumn() {
   return (
-    <div>
+    <div className="w-max">
       <h3 className="font-medium mb-8">BONSAI</h3>
       <ul className="space-y-1 cursor-pointer">
         <ListItems>About</ListItems>

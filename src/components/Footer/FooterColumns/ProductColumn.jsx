@@ -1,7 +1,7 @@
 function ProductColumn() {
   return (
     <div>
-      <h3 className="font-medium mb-8 f">PRODUCT</h3>
+      <h3 className="font-medium mb-8">PRODUCT</h3>
       <ul className="space-y-1 cursor-pointer">
         <li className=" opacity-50 hover:opacity-70">Proposal</li>
         <li className=" opacity-50 hover:opacity-70">Contracts</li>
