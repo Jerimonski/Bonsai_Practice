@@ -9,6 +9,9 @@ export default {
         "yellow-light": "#f8db62",
         "white-bg": "#fff",
       },
+      brightness: {
+        90: ".90",
+      },
     },
   },
   plugins: [],
