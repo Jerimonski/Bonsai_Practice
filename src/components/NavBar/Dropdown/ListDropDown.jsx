@@ -1,9 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react"
-import ListProduct from "./ListMenu.jsx/ListProduct"
 
-function ListDropDown({ children }) {
+function ListDropDown({ title, menuOptions }) {
   const [onMouse, setOnMouse] = useState(false)
 
   const handleOnMouse = () => {
@@ -15,10 +14,10 @@ function ListDropDown({ children }) {
       onMouseEnter={handleOnMouse}
       onMouseLeave={handleOnMouse}
     >
-      {children}
+      {title}
       <FontAwesomeIcon icon={faChevronDown} />
 
-      {onMouse && <ListProduct />}
+      {onMouse && menuOptions}
     </li>
   )
 }

@@ -1,4 +1,7 @@
 import ListDropDown from "./Dropdown/ListDropDown"
+import ListProduct from "./Dropdown/ListMenu/ListProduct/ListProduct"
+import ListTemplates from "./Dropdown/ListMenu/ListTemplate/ListTemplates"
+ListTemplates
 import { Link } from "react-router-dom"
 function NavBar() {
   return (
@@ -7,8 +10,8 @@ function NavBar() {
         <img className="h-22 w-24" src="BonsaiLogo.png" alt="BonsaiLogo" />
       </Link>
       <ul className="flex gap-10">
-        <ListDropDown>Product</ListDropDown>
-        <ListDropDown>Templates</ListDropDown>
+        <ListDropDown title="Product" menuOptions={<ListProduct />} />
+        <ListDropDown title="Templates" menuOptions={<ListTemplates />} />
         <Link to={"/Pricing"} className="py-4">
           Pricing
         </Link>
