@@ -7,9 +7,9 @@ function RoutesPage() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/login" element={<Pricing />} />
-      <Route path="/register" element={<Reviews />} />
+      <Route path="/Home" element={<Home />} />
+      <Route path="/Pricing" element={<Pricing />} />
+      <Route path="/Reviews" element={<Reviews />} />
     </Routes>
   )
 }
