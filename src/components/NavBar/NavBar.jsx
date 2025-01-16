@@ -1,7 +1,6 @@
 import ListDropDown from "./Dropdown/ListDropDown"
 import ListProduct from "./Dropdown/ListMenu/ListProduct/ListProduct"
-import ListTemplates from "./Dropdown/ListMenu/ListTemplate/ListTemplates"
-ListTemplates
+import MenuTemplate from "./Dropdown/ListMenu/ListTemplate/menuTemplate"
 import { Link } from "react-router-dom"
 function NavBar() {
   return (
@@ -11,7 +10,7 @@ function NavBar() {
       </Link>
       <ul className="flex gap-10">
         <ListDropDown title="Product" menuOptions={<ListProduct />} />
-        <ListDropDown title="Templates" menuOptions={<ListTemplates />} />
+        <ListDropDown title="Templates" menuOptions={<MenuTemplate />} />
         <Link to={"/Pricing"} className="py-4">
           Pricing
         </Link>
