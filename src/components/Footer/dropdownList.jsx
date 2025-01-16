@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react"
-import ListItems from "../ui/components/listItems"
+import ListItems from "./FooterColumns/listItems"
 import { motion } from "motion/react"
 
 function DropdownList({ children }) {
