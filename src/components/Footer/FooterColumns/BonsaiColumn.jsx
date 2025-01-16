@@ -1,5 +1,5 @@
-import ListItems from "./../../ui/components/listItems"
-import DropdownList from "./../../ui/components/dropdownList"
+import ListItems from "./listItems"
+import DropdownList from "../dropdownList"
 
 function BonsaiColumn() {
   return (
