@@ -1,5 +1,7 @@
+import QuestionsSection from "./QuestionsSection/QuestionsSection"
+
 function HomePage() {
-  return <div>qwdqdsadasdd</div>
+  return <QuestionsSection />
 }
 
 export default HomePage

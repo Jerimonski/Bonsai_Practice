@@ -1,4 +1,4 @@
-import MenuOptions from "./menuoptions"
+import MenuOptions from "./menuOptions"
 
 function menuTemplate() {
   return (
