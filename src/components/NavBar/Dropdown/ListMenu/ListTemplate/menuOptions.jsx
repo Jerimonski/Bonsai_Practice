@@ -1,4 +1,4 @@
-import stateChange from "../stateChange"
+import stateChange from "../../../../ui/stateChange"
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import LabelSubMenu from "./labelSubMenu"

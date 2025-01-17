@@ -4,7 +4,7 @@ import MenuTemplate from "./Dropdown/ListMenu/ListTemplate/menuTemplate"
 import { Link } from "react-router-dom"
 function NavBar() {
   return (
-    <div className="fixed z-50 bg-white w-full flex items-center justify-center py-2 px-4 gap-32 place-content-evenly cursor-pointer">
+    <div className="z-50 bg-white w-full flex items-center justify-center py-2 px-4 gap-32 place-content-evenly cursor-pointer">
       <Link to={"/Home"}>
         <img className="h-22 w-24" src="BonsaiLogo.png" alt="BonsaiLogo" />
       </Link>
