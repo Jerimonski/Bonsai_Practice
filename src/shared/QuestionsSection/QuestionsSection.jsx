@@ -2,7 +2,7 @@ import FaqDropdown from "./FaqDropdown"
 
 function QuestionsSection() {
   return (
-    <div className="w-screen mb-12 w-full flex flex-col items-center">
+    <div className="w-screen mb-12 flex flex-col items-center">
       <h2 className="text-center text-3xl text-green-light font-bold p-8">
         Frequenly Asked Questions
       </h2>

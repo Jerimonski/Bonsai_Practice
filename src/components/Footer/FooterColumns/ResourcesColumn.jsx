@@ -3,7 +3,7 @@ import DropdownList from "../dropdownList"
 
 function ResourcesColumn() {
   return (
-    <div>
+    <div className="w-64">
       <h3 className="font-medium mb-8">FREE RESOURCES</h3>
       <ul className="space-y-1 cursor-pointer">
         <ListItems>Freelance Resources</ListItems>

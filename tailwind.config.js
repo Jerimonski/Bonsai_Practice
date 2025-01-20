@@ -8,6 +8,7 @@ export default {
         "purple-dark-letters": "#4c4d5f",
         "yellow-light": "#f8db62",
         "white-bg": "#fff",
+        "blue-light-bg": "#F2FAFF",
       },
       brightness: {
         90: ".90",
