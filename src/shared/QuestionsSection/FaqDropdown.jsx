@@ -32,7 +32,7 @@ function FaqDropdown({ children }) {
         charges, but refunds will not be issued. This applies to both monthly and annual plans.`,
   }
 
-  const currentAnswer = AnswerFAQ[children] || []
+  const currentAnswer = AnswerFAQ[children] || ""
 
   const menuDrawer = {
     enter: {
