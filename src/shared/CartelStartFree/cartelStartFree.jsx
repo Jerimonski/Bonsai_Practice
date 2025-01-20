@@ -7,7 +7,9 @@ function cartelStartFree() {
           It’s <span className="text-green-light">your</span> business. <br />
           We’re here to help it grow.
         </h2>
-        <ButtonStartFree />
+        <div className="h-12 w-40">
+          <ButtonStartFree />
+        </div>
       </div>
     </div>
   )

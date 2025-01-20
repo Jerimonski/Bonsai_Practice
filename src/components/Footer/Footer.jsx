@@ -4,8 +4,8 @@ import BonsaiColumn from "./FooterColumns/BonsaiColumn"
 
 function Footer() {
   return (
-    <div className="w-full flex items-center justify-center">
-      <div className="grid grid-cols-3 flex flex-col gap-14 mx-52">
+    <div className="flex items-center w-screen justify-center py-16">
+      <div className="grid grid-cols-3 gap-44">
         <ProductColumn />
         <ResourcesColumn />
         <BonsaiColumn />

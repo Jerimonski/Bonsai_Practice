@@ -13,7 +13,7 @@ function addLabels({ children, price }) {
 
   const currentAdd = adds[children] || ""
   return (
-    <div className="w-[1000px] p-10 flex justify-between mt-2 rounded-md bg-white">
+    <div className="w-[1000px] p-10 flex justify-between rounded-md bg-white">
       <div>
         <h4 className="text-xl font-medium">{children}</h4>
         <p className="text-sm text-purple-dark-letters">{currentAdd}</p>
